@@ -1,0 +1,48 @@
+/*网站：中国出版协会简化网站
+样式表文件名：pac.css
+应用对象：edu_10_3_1.hmtl
+ */
+body{
+    color:#010101;
+    background:#fff;
+    margin-top:0xp;
+    margin-left:0xp;
+    margin-right:0px;}
+body,html{
+    font:12px/1.5tahoma,arial,sans-serif;
+    display:block;}
+.body-top{
+    height:297px;
+    background:url("v9/b1.jpg");}
+.header,.header.logo{
+    width:960px;
+    margin:0 auto;
+    height:297px;
+    background:url("v9/b2.jpg") no-repeat center;}
+/*New Nav Style*/
+#nav ul{
+    margin:0px;
+    padding:0px;}
+#nav li{
+    text-align:center;
+    font-size:14px;
+    font-weight:700;}
+#nav_warp{
+    width:960px;
+    overfiow:hidden;
+    padding-top:223px;}
+#nav{
+    height:69px;
+    width:960px;
+    margin:0 auto;
+    padding:relative;}
+#nav li{
+    float:left;
+    list-style:none;}
+#nav li.v a {
+    padding:0 4px;
+    height:39px;
+    line-height:33px;
+    display:block;
+    color:#0d2972;
+    float:left;}
